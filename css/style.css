@@ -15,6 +15,7 @@ header {
     align-items: center;
     justify-content: center;
     transition: height 0.3s ease-in-out;
+    z-index: 1;
 }
 
 #navbar {
@@ -188,6 +189,7 @@ nav ul li:first-child a:hover {
     width: 100%;
     max-width: 600px;
     margin: auto;
+    z-index: 0;
 }
   
 .slides {
