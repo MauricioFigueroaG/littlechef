@@ -214,14 +214,38 @@ button {
   
 .prev {
     left: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
   
 .next {
     right: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
   
 button:hover {
     background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* video */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    margin: 0;
+}
+
+.video {
+    width: 600px;
+    height: 338px;
+}
+
+.video iframe {
+    width: 100%;
+    height: 100%;
 }
 
 
